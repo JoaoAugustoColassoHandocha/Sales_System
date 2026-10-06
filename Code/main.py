@@ -19,9 +19,9 @@ import plotly.express as px
 
 write = st.write
 
-st.set_page_config(page_title = 'Sistema de Vendas', page_icon = 'vendas.ico')
+st.set_page_config(page_title = 'Sistema de Vendas', page_icon = '/workspaces/Sales_System/Code/vendas.ico')
 
-sales_table = pd.read_csv('vendas.csv')
+sales_table = pd.read_csv('/workspaces/Sales_System/Code/vendas.csv')
 
 write('# Sistema de Vendas')
 
@@ -44,7 +44,7 @@ if register_button:
         new_sale = [str(date), salesperson, product, quantity, amount]
         last_line = len(sales_table)
         sales_table.loc[last_line] = new_sale
-        sales_table.to_csv('vendas.csv', index = False)
+        sales_table.to_csv('/workspaces/Sales_System/Code/vendas.csv', index = False)
         st.success('Venda cadastrada!')
 
 write('## Vendas Cadastradas')
