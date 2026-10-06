@@ -20,6 +20,8 @@ import plotly.express as px
 write = st.write
 title = st.title
 
+st.set_page_config(page_title = 'Sistema de Vendas', page_icon = '')
+
 title('Sistema de Vendas')
 
 write('# Sistema de Vendas')
