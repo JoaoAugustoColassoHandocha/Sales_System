@@ -27,7 +27,7 @@ write('## Cadastrar Vendas')
 
 date = st.date_input('Data')
 salesperson = st.selectbox('Vendedor', ['Ana', 'Bruno', 'Carla'])
-product = 
+product = st.selectbox('Produto', ['Notebook', 'Celular', 'Fone'])
 quantity = 
 amount = 
 register_button =
