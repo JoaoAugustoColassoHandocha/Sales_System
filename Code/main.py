@@ -25,8 +25,7 @@ sales_table = pd.read_csv('vendas.csv')
 
 write('# Sistema de Vendas')
 
-
-write('## Cadastrar Vendas')
+st.sidebar.write('## Cadastrar Vendas')
 date = st.date_input('Data')
 salesperson = st.selectbox('Vendedor', ['Ana', 'Bruno', 'Carla'])
 product = st.selectbox('Produto', ['Notebook', 'Celular', 'Fone'])
