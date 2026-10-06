@@ -25,6 +25,13 @@ write('# Sistema de Vendas')
 
 write('## Cadastrar Vendas')
 
+date = 
+salesperson = 
+product = 
+quantity = 
+amount = 
+register_button =
+
 write('## Vendas Cadastradas')
 
 write('## Dashboard')
