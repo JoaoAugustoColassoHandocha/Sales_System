@@ -35,8 +35,14 @@ register_button = st.sidebar.button('Cadastrar Venda')
 
 if register_button:
     
-    new_sale = [date, salesperson, product, quantity, amount]
-    st.success('Venda cadastrada!')
+    if quantity <= 0 or amount <= 0:
+        
+        st.warning('Informação incorreta!!!')
+    
+    else:
+        
+        new_sale = [date, salesperson, product, quantity, amount]
+        st.success('Venda cadastrada!')
 
 write('## Vendas Cadastradas')
 st.dataframe(sales_table)
