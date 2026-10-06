@@ -40,4 +40,4 @@ st.dataframe(sales_table)
 
 write('## Dashboard')
 
-invoicing = sales_table
+invoicing = sales_table['valor'].sum()
