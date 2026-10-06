@@ -40,3 +40,4 @@ st.dataframe(sales_table)
 
 write('## Dashboard')
 
+invoicing = sales_table
