@@ -40,5 +40,5 @@ st.dataframe(sales_table)
 
 write('## Dashboard')
 
-invoicing = sales_table['valor'].sum()
+invoicing = sales_table['valor%.2f'].sum()
 st.metric('Faturamento Total', invoicing)
