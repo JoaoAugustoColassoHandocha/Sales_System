@@ -42,7 +42,7 @@ if register_button:
     else:
         
         new_sale = [str(date), salesperson, product, quantity, amount]
-        last_line = 
+        last_line = len(sales_table)
         st.success('Venda cadastrada!')
 
 write('## Vendas Cadastradas')
