@@ -18,11 +18,10 @@ import pandas as pd
 import plotly.express as px
 
 write = st.write
-title = st.title
 
-st.set_page_config(page_title = 'Sistema de Vendas', page_icon = '')
+st.set_page_config(page_title = 'Sistema de Vendas', page_icon = 'Code/vendas.ico')
 
-title('Sistema de Vendas')
+st.title('Sistema de Vendas')
 
 write('# Sistema de Vendas')
 
