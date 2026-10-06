@@ -36,6 +36,7 @@ register_button = st.button('Cadastrar Venda')
 
 write('## Vendas Cadastradas')
 
+st.dataframe()
 
 
 write('## Dashboard')
