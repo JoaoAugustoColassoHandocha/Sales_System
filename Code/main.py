@@ -25,8 +25,8 @@ sales_table = pd.read_csv('vendas.csv')
 
 write('# Sistema de Vendas')
 
-write('## Cadastrar Vendas')
 
+write('## Cadastrar Vendas')
 date = st.date_input('Data')
 salesperson = st.selectbox('Vendedor', ['Ana', 'Bruno', 'Carla'])
 product = st.selectbox('Produto', ['Notebook', 'Celular', 'Fone'])
@@ -35,13 +35,11 @@ amount = st.number_input('Valor')
 register_button = st.button('Cadastrar Venda')
 
 write('## Vendas Cadastradas')
-
 st.dataframe(sales_table)
 
 write('## Dashboard')
 
 invoicing = sales_table['valor'].sum()
-
 st.metric('Faturamento Total', f'R$ {invoicing:.2f}')
 
 bar_chart = px.bar(sales_table, x = 'vendedor', y = 'valor', color = 'produto')
