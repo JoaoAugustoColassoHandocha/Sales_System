@@ -43,6 +43,7 @@ if register_button:
         
         new_sale = [str(date), salesperson, product, quantity, amount]
         last_line = len(sales_table)
+        sales_table.loc[last_line] = new_sale
         st.success('Venda cadastrada!')
 
 write('## Vendas Cadastradas')
