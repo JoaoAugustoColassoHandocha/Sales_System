@@ -37,7 +37,7 @@ if register_button:
     
     if quantity <= 0 or amount <= 0:
         
-        st.warning('Informação incorreta!!!')
+        st.warning('Informações incorretas!!!')
     
     else:
         
