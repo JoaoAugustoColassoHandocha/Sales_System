@@ -41,7 +41,7 @@ if register_button:
     
     else:
         
-        new_sale = [date, salesperson, product, quantity, amount]
+        new_sale = [str(date), salesperson, product, quantity, amount]
         st.success('Venda cadastrada!')
 
 write('## Vendas Cadastradas')
