@@ -25,7 +25,7 @@ write('# Sistema de Vendas')
 
 write('## Cadastrar Vendas')
 
-date = st.datetime_input
+date = st.date_input('Data')
 salesperson = 
 product = 
 quantity = 
