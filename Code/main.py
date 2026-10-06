@@ -19,7 +19,7 @@ import plotly.express as px
 
 write = st.write
 
-st.set_page_config(page_title = 'Sistema de Vendas', page_icon = 'C:\\Users\\sd.joao.handocha\\OneDrive - Ministério Público do Trabalho\\Documentos\\Sales_System\\Code\\vendas.ico')
+st.set_page_config(page_title = 'Sistema de Vendas', page_icon = '\\Code\\vendas.ico')
 
 write('# Sistema de Vendas')
 
