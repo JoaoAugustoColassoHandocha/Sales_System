@@ -18,6 +18,9 @@ import pandas as pd
 import plotly.express as px
 
 write = st.write
+title = st.title
+
+title('# Sistema de Vendas')
 
 write('# Sistema de Vendas')
 
