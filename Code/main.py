@@ -33,6 +33,10 @@ quantity = st.sidebar.number_input('Quantidade', step = 1)
 amount = st.sidebar.number_input('Valor')
 register_button = st.sidebar.button('Cadastrar Venda')
 
+if register_button:
+    
+    new_sale = [date, salesperson, product, quantity, amount]
+
 write('## Vendas Cadastradas')
 st.dataframe(sales_table)
 
