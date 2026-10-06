@@ -7,5 +7,7 @@ Update main.py
 4 - Display the database on the screen
 5 - Create the dashboard with charts
 
+pip install streamlit pandas plotly
+
 '''
 
