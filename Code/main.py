@@ -17,10 +17,12 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.write('# Sistema de Vendas')
+write = st.write
 
-st.write('## Cadastrar Vendas')
+write('# Sistema de Vendas')
 
-st.write('## Vendas Cadastradas')
+write('## Cadastrar Vendas')
 
-st.write('## Dashboard')
+write('## Vendas Cadastradas')
+
+write('## Dashboard')
