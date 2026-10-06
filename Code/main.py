@@ -21,8 +21,6 @@ write = st.write
 
 st.set_page_config(page_title = 'Sistema de Vendas', page_icon = 'Code/vendas.ico')
 
-st.title('Sistema de Vendas')
-
 write('# Sistema de Vendas')
 
 write('## Cadastrar Vendas')
