@@ -44,6 +44,6 @@ invoicing = sales_table['valor'].sum()
 
 st.metric('Faturamento Total', f'R$ {invoicing:.2f}')
 
-bar_chart = 
+bar_chart = px.bar()
 
-pie_chart = 
+pie_chart = px.pie()
