@@ -26,7 +26,7 @@ sales_table = pd.read_csv('vendas.csv')
 write('# Sistema de Vendas')
 
 st.sidebar.write('## Cadastrar Vendas')
-date = st.sidebar.date_input('Data', min_value = 'today')
+date = st.sidebar.date_input('Data', max_value = 'today')
 salesperson = st.sidebar.selectbox('Vendedor', ['Ana', 'Bruno', 'Carla'])
 product = st.sidebar.selectbox('Produto', ['Notebook', 'Celular', 'Fone'])
 quantity = st.sidebar.number_input('Quantidade', step = 1)
