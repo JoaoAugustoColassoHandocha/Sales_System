@@ -19,6 +19,6 @@ st.write('# Sistema de Vendas')
 
 st.write('## Cadastrar Vendas')
 
-st.write('# Sistema de Vendas')
+st.write('## Vendas Cadastradas')
 
-st.write('# Sistema de Vendas')
+st.write('## Dashboard')
