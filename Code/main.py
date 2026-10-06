@@ -39,3 +39,4 @@ write('## Vendas Cadastradas')
 st.dataframe(sales_table)
 
 write('## Dashboard')
+
