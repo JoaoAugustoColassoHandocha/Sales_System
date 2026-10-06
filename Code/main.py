@@ -21,6 +21,8 @@ write = st.write
 
 st.set_page_config(page_title = 'Sistema de Vendas', page_icon = 'vendas.ico')
 
+sales_table = pd.read_csv('vendas.csv')
+
 write('# Sistema de Vendas')
 
 write('## Cadastrar Vendas')
