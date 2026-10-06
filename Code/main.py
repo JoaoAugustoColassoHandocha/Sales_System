@@ -17,3 +17,8 @@ import plotly.express as px
 
 st.write('# Sistema de Vendas')
 
+st.write('## Cadastrar Vendas')
+
+st.write('# Sistema de Vendas')
+
+st.write('# Sistema de Vendas')
