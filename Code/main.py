@@ -34,4 +34,6 @@ register_button = st.button('Cadastrar Venda')
 
 write('## Vendas Cadastradas')
 
+
+
 write('## Dashboard')
