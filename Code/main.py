@@ -44,7 +44,7 @@ if register_button:
         new_sale = [str(date), salesperson, product, quantity, amount]
         last_line = len(sales_table)
         sales_table.loc[last_line] = new_sale
-        sales_table.to_csv('vendas.csv')
+        sales_table.to_csv('vendas.csv', index = False)
         st.success('Venda cadastrada!')
 
 write('## Vendas Cadastradas')
