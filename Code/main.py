@@ -11,6 +11,8 @@ pip install streamlit pandas plotly - Imported libraries
 
 streamlit run main.py - Runs the application
 
+Link: https://sistemavendas.streamlit.app/
+
 '''
 
 import streamlit as st
